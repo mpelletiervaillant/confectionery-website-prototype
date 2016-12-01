@@ -304,4 +304,14 @@ ul.social-media {
 img.sm-icon {
   float: left;
   width: 40px;
+  margin: .3em;
+}
+
+ul.btm-nav {
+  list-style-type: none;
+}
+
+.btm-nav li {
+  display: inline-block;
+  color: white;
 }
