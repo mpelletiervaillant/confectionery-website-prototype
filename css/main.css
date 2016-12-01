@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #fef1f7;
+  background-color: #fdfdfd;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   text-align: center;
   margin: 0;
   text-shadow: 2px 2px 5px black;
-  background-color: #ffe85a;
+  background-color: #f473b3;
   padding: .5em;
 }
 
@@ -37,12 +37,13 @@ nav ul {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 nav li {
   display: inline-block;
   float: left;
-  width: 49%;
+  width: 49.5%;
   margin-top: 1px;
   margin-left: 1px;
   background-color: #01a2be;
@@ -57,10 +58,9 @@ nav a {
 
 nav li:hover {
   background-color: #ffe85a;
-}
-
-nav a:hover {
   color: #01a2be;
+  transition: background-color .35s, color .35s;
+  cursor: pointer;
 }
 
 .banner {
@@ -133,8 +133,9 @@ div.body-about {
 }
 
 .btn:hover {
-  background-color: #01a2be;
-  border-color: #01a2be;
+  background-color: white;
+  color: black;
+  transition: background-color .35s, color .35s;
 }
 
 ul.people {
