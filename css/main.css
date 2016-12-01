@@ -325,8 +325,20 @@ ul.review-card {
   margin: 1em;
 }
 
+.one p:first-child {
+  color: #f473b3;
+  font-family: 'Amatica SC', sans-serif;
+  font-size: 2rem;
+}
 .rev-body {
-  padding: 1em;
+  padding: 0;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.rev-body p {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
 }
 
 .one p:first-child {
