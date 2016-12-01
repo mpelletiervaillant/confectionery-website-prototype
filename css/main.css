@@ -22,14 +22,28 @@ body {
   background-color: #fdfdfd;
 }
 
+nav {
+  background-color: white;
+}
+
+.header-icons {
+  background-color: #f473b3;
+  padding: 1em 0;
+}
+
+img.float-left {
+  float: left;
+  width: 50px;
+  margin: .5em;
+  margin-left: 2em;
+}
+
 h1 {
   color: white;
   font-size: 2em;
   text-align: center;
   margin: 0;
   text-shadow: 2px 2px 5px black;
-  background-color: #f473b3;
-  padding: .5em;
 }
 
 nav ul {
@@ -65,6 +79,7 @@ nav li:hover {
 
 .banner {
   position: relative;
+  background-color: white;
 
 }
 
