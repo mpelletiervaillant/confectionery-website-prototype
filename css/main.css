@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #fef1f7;
 }
 header {
   background-color: #ffe85a;
@@ -30,7 +31,8 @@ h1 {
   text-align: center;
   margin: 0;
   text-shadow: 2px 2px 5px black;
-  float: right;}
+  float: right;
+}
 
 ul.nav {
   display: none;
