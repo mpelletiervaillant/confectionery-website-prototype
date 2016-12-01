@@ -239,6 +239,7 @@ img.prod {
 
 .prod-btn:hover {
   opacity: 0.5;
+  transition: opacity .35s;
 }
 
 section.location {
@@ -273,6 +274,7 @@ section.location {
   text-align: center;
   background-color: #01a2be;
   color: white;
+  font-size: 2.5em;
 }
 
 .store a {
@@ -281,6 +283,7 @@ section.location {
 
 .store h2:hover {
   background-color: #ffe85a;
+  transition: background-color .35s, color .35s;
 }
 
 footer {
@@ -294,7 +297,7 @@ ul.social-media {
   list-style-type: none;
   margin: 0;
   padding: 0;
-    text-align: center;
+  text-align: center;
 }
 
 .social-media li {
@@ -307,11 +310,33 @@ img.sm-icon {
   margin: .3em;
 }
 
-ul.btm-nav {
+ol.btm-nav {
+  padding: 0;
   list-style-type: none;
+    padding: .2em;
+    text-align: center;
+    display: inline-block;
+    width: 95%;
+    margin: 0;
 }
 
 .btm-nav li {
-  display: inline-block;
+  float: left;
+  width: 16%;
+  margin: 0.3em;
+  display: inline
+
+}
+
+.btm-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.btm-nav a:hover {
+  color: #ffe85a;
+}
+
+footer small {
   color: white;
 }
