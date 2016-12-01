@@ -28,6 +28,26 @@ h1 {
   background-color: #ffe85a;
   margin: 0;
   padding: .5em 1em;
+  text-shadow: 2px 2px 5px black;
+}
+
+ul.nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
 }
 
 nav ul {
@@ -51,7 +71,6 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-
 }
 
 nav li:hover {
@@ -64,21 +83,23 @@ nav a:hover {
 
 .banner {
   position: relative;
+
 }
 
 .banner-content {
   text-align: left;
   position: absolute;
   bottom: 0;
-  width: 80%;
-  background-color: #f473b3;
-  padding-left: 1em;
+  width: 100%;
+  background-color: rgba(244, 115, 179, 0.5);
+  padding: 1em;
+
 }
 
 .banner-content h2 {
   font-family: "Amatica SC", sans-serif;
   color: white;
-  font-size: 2.2em;
+  font-size: 1.5em;
   text-shadow: 2px 2px 5px black;
   padding: 0;
   margin: 0;
@@ -87,6 +108,8 @@ nav a:hover {
 .banner-content p {
   margin: 0;
   font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: .8em;
 }
 
 section.about {
@@ -97,19 +120,38 @@ section.about {
 div.body-about {
   padding: 1em;
   margin: 1em;
-  box-shadow: 2px 2px 5px grey
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
 }
 
 .about h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 2.5em;
+  text-align: left;
 }
 
 .about p {
   font-family: 'Playfair Display', serif;
   font-size: .9em;
   color: #f473b3;
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #f473b3;
+  border: 3px solid #f473b3;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #01a2be;
+  border-color: #01a2be;
 }
 
 ul.people {
@@ -157,12 +199,16 @@ div.card-body {
   padding-bottom: 1rem;
 }
 
+section.products {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px grey
+}
+
 ul.prod-list {
   list-style-type: none;
   padding: 1em;
-  border-top: 2px solid #ffe85a;
-    border-bottom: 2px solid #ffe85a;
-    text-align: center;
+  text-align: center;
 }
 
 li.prod-btn {
