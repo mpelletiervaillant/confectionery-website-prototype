@@ -242,8 +242,24 @@ img.prod {
 }
 
 section.location {
-  margin: 1em;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px grey;
 }
+
+.location-info {
+  padding: 1em;
+}
+
+.location h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.location p{
+    font-family: 'Playfair Display', serif;
+}
+
 .img-store {
   width: 100%;
 }
@@ -252,10 +268,6 @@ section.location {
   margin: 0;
 }
 
-img.img-shop {
-  width: 100%;
-
-}
 
 .store h2 {
   text-align: center;
