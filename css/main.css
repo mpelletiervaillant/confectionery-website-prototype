@@ -20,16 +20,17 @@ html {
 body {
   margin: 0;
 }
+header {
+  background-color: #ffe85a;
+}
 
 h1 {
   color: white;
-  font-size: 2.7em;
+  font-size: 2em;
   text-align: center;
-  background-color: #ffe85a;
   margin: 0;
-  padding: .5em 1em;
   text-shadow: 2px 2px 5px black;
-}
+  float: right;}
 
 ul.nav {
   display: none;
@@ -42,12 +43,18 @@ ul.nav {
 
 .nav-check:checked ~ .nav {
   display: block;
-
 }
 
 .nav-label {
   cursor: pointer;
   font-size: 1.25rem;
+  width: 40px;
+  display: inline-block;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
 }
 
 nav ul {
