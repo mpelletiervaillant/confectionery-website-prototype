@@ -100,6 +100,7 @@ nav li:hover {
   text-shadow: 2px 2px 5px black;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .banner-content p {
@@ -107,17 +108,19 @@ nav li:hover {
   font-family: 'Playfair Display', serif;
   color: white;
   font-size: .8em;
+  text-decoration: none;
 }
 
 section.about {
   width: 90%;
   margin: 0 auto;
+    box-shadow: 2px 2px 5px grey;
 }
 
 div.body-about {
   padding: 1em;
   margin: 1em;
-  box-shadow: 2px 2px 5px grey;
+
   text-align: center;
   background-color: white;
 }
@@ -163,6 +166,7 @@ li.card-one {
   border: 3px solid #01a2be;
   border-radius: 10px;
   background-color: white;
+  box-shadow: 2px 2px 5px #006374;
 }
 
 .carl {
@@ -234,12 +238,18 @@ img.prod {
   transform: translateX(-50%);
   text-shadow: 2px 2px 5px black;
   text-align: center;
-
 }
 
 .prod-btn:hover {
   opacity: 0.5;
   transition: opacity .35s;
+}
+
+section.learn {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  box-shadow: 2px 2px 5px grey;
 }
 
 section.location {
@@ -269,7 +279,6 @@ section.location {
   margin: 0;
 }
 
-
 .store h2 {
   text-align: center;
   background-color: #01a2be;
@@ -284,6 +293,10 @@ section.location {
 .store h2:hover {
   background-color: #ffe85a;
   transition: background-color .35s, color .35s;
+}
+
+.review-card li {
+  border: 1px solid grey;
 }
 
 footer {
