@@ -282,3 +282,26 @@ section.location {
 .store h2:hover {
   background-color: #ffe85a;
 }
+
+footer {
+  background-color: #f473b3;
+  text-align: center;
+  display: block;
+  padding: 1em;
+}
+
+ul.social-media {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    text-align: center;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+img.sm-icon {
+  float: left;
+  width: 40px;
+}
