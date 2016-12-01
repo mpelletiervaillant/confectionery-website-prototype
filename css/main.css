@@ -1,0 +1,226 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.3 'Amatica SC', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 2.7em;
+  text-align: center;
+  background-color: #ffe85a;
+  margin: 0;
+  padding: .5em 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  width: 49%;
+  margin-top: 1px;
+  margin-left: 1px;
+  background-color: #01a2be;
+  padding: .3em;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+
+}
+
+nav li:hover {
+  background-color: #ffe85a;
+}
+
+nav a:hover {
+  color: #01a2be;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  background-color: #f473b3;
+  padding-left: 1em;
+}
+
+.banner-content h2 {
+  font-family: "Amatica SC", sans-serif;
+  color: white;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 5px black;
+  padding: 0;
+  margin: 0;
+}
+
+.banner-content p {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+section.about {
+  width: 90%;
+  margin: 0 auto;
+}
+
+div.body-about {
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 2px 2px 5px grey
+}
+
+.about h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+.about p {
+  font-family: 'Playfair Display', serif;
+  font-size: .9em;
+  color: #f473b3;
+}
+
+ul.people {
+  padding: 0;
+  list-style-type: none;
+}
+
+li.card-one {
+  margin: .5em 2em;
+  border: 3px solid #01a2be;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.carl {
+  width: 100px;
+  display: block;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+div.card-body {
+  margin: .4em;
+}
+
+.card-body strong {
+  font-size: 2rem;
+  padding-left: .7rem;
+}
+
+.card-body small {
+  padding-left: .7rem;
+  font-size: 1.4em;
+}
+
+.card-body p:first-child {
+  font-family: 'Amatica SC', sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.card-body p:last-child {
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 1rem;
+}
+
+ul.prod-list {
+  list-style-type: none;
+  padding: 1em;
+  border-top: 2px solid #ffe85a;
+    border-bottom: 2px solid #ffe85a;
+    text-align: center;
+}
+
+li.prod-btn {
+  display: inline-block;
+  position: relative;
+  width: 31%;
+}
+
+img.prod {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.btn-content h3 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  bottom: .8em;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+
+}
+
+.prod-btn:hover {
+  opacity: 0.5;
+}
+
+section.location {
+  margin: 1em;
+}
+.img-store {
+  width: 100%;
+}
+
+.location-fig {
+  margin: 0;
+}
+
+img.img-shop {
+  width: 100%;
+
+}
+
+.store h2 {
+  text-align: center;
+  background-color: #01a2be;
+  color: white;
+}
+
+.store a {
+  text-decoration: none;
+}
+
+.store h2:hover {
+  background-color: #ffe85a;
+}
