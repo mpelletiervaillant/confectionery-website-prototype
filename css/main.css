@@ -294,6 +294,7 @@ section.location {
   background-color: #01a2be;
   color: white;
   font-size: 2.5em;
+  padding: .6em 0;
 }
 
 .store a {
@@ -305,8 +306,31 @@ section.location {
   transition: background-color .35s, color .35s;
 }
 
+
+ul.review-card {
+  list-style-type: none;
+  padding: 0;
+
+}
 .review-card li {
   border: 1px solid grey;
+  margin: .5em 2em;
+  background-color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.joy {
+  width: 100px;
+  display: inline-block;
+  margin: 1em;
+}
+
+.rev-body {
+  padding: 1em;
+}
+
+.one p:first-child {
+  display: inline-block;
 }
 
 footer {
