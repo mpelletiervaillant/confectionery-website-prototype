@@ -321,29 +321,36 @@ ul.review-card {
 }
 
 .joy {
-  width: 100px;
+  width: 40%;
+  float: left;
+  top: 0;
   display: inline-block;
   margin: 1em;
 }
 
-.one p:first-child {
-  color: #f473b3;
-  font-family: 'Amatica SC', sans-serif;
-  font-size: 2rem;
+.one strong {
+  color: black;
+  font-size: 3rem;
+margin-top: 5em;
 }
-.rev-body {
-  padding: 0;
-  padding-bottom: 1em;
-  padding-left: 1em;
+
+img.star {
+  float: left;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.rev-head {
+  margin: 1em;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 .rev-body p {
+  color: #f473b3;
   font-family: 'Playfair Display', serif;
-  margin: 0;
-}
-
-.one p:first-child {
-  display: inline-block;
+  margin: 1em;
+  display: block;
 }
 
 footer {
