@@ -22,13 +22,10 @@ body {
   background-color: #fdfdfd;
 }
 
-nav {
-  background-color: white;
-}
-
-.header-icons {
+header {
   background-color: #f473b3;
   padding: 1em 0;
+  text-align: center;
 }
 
 img.float-left {
@@ -43,15 +40,41 @@ h1 {
   font-size: 2em;
   text-align: center;
   margin: 0;
+  padding-bottom: .8em;
   text-shadow: 2px 2px 5px black;
+  display: inline-block;
 }
 
-nav ul {
+ul.nav {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  overflow: hidden;
   text-align: center;
+  overflow: hidden;
+  display: none;
+  background-color: white;
+}
+
+.nav-check:checked ~ ul.nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+
+.nav-check {
+  position: absolute;
+  top: -3em;
 }
 
 nav li {
@@ -418,4 +441,12 @@ ol.btm-nav {
 
 footer small {
   color: white;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    size: 100%;
+    line-height: 1.3;
+  }
 }
