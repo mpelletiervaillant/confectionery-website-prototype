@@ -29,15 +29,16 @@ header {
 }
 
 img.float-left {
-  float: left;
-  width: 50px;
-  margin: .5em;
-  margin-left: 2em;
+  display: none;
+}
+
+img.float-right {
+  display: none;
 }
 
 h1 {
   color: white;
-  font-size: 2em;
+  font-size: 2.8em;
   text-align: center;
   margin: 0;
   padding-bottom: .8em;
@@ -70,7 +71,6 @@ ul.nav {
   width: 100%;
   float: left;
 }
-
 
 .nav-check {
   position: absolute;
@@ -110,6 +110,7 @@ nav li:hover {
   background-color: #f473b3;
   padding: 1em;
   cursor: pointer;
+
 }
 
 .banner-content:hover {
@@ -283,8 +284,6 @@ img.prod {
   transition: opacity .35s;
 }
 
-
-
 section.location {
   width: 95%;
   margin: 0 auto;
@@ -457,4 +456,35 @@ footer small {
     font-size: 110%;
     line-height: 1.4;
   }
-}
+
+  ul.nav {
+    display: block;
+  }
+
+  .nav-label img {
+    display: none;
+  }
+
+  img.float-left {
+    display: inline;
+    float: left;
+    width: 80px;
+    margin: 1em;
+  }
+
+  img.float-right {
+    display: inline;
+    float: right;
+    width: 80px;
+    margin: 1em;
+  }
+
+  .banner {
+    position: relative;
+
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+  }
