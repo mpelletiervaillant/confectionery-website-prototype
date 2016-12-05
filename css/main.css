@@ -308,12 +308,13 @@ section.location {
   transition: background-color .35s, color .35s;
 }
 
-
 ul.review-card {
   list-style-type: none;
   padding: 0;
+  max-width: 375px;
+  margin: 0 auto;
+  }
 
-}
 .review-card li {
   border: 1px solid grey;
   margin: .5em 2em;
@@ -322,7 +323,7 @@ ul.review-card {
 }
 
 .joy {
-  width: 40%;
+  width: 100px;
   float: left;
   top: 0;
   display: inline-block;
@@ -332,13 +333,14 @@ ul.review-card {
 .one strong {
   color: black;
   font-size: 3rem;
-margin-top: 5em;
-}
+  margin-top: 5em;
+  }
 
 img.star {
   float: left;
   width: 40%;
   margin-bottom: 1em;
+  display: block;
 }
 
 .rev-head {
