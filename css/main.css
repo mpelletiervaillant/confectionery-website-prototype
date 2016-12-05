@@ -280,6 +280,7 @@ section.location {
 
 .location p{
     font-family: 'Playfair Display', serif;
+    color: #f473b3;
 }
 
 .img-store {
@@ -347,7 +348,7 @@ img.star {
 }
 
 .rev-body p {
-  color: #f473b3;
+  color: black;
   font-family: 'Playfair Display', serif;
   margin: 1em;
   display: block;
