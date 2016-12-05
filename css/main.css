@@ -80,7 +80,6 @@ nav li:hover {
 .banner {
   position: relative;
   background-color: white;
-
 }
 
 .banner-content {
@@ -112,7 +111,7 @@ nav li:hover {
 }
 
 section.about {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
@@ -157,7 +156,7 @@ div.body-about {
 }
 
 section.learn {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 1em;
   box-shadow: 2px 2px 5px grey;
@@ -217,7 +216,7 @@ div.card-body {
 }
 
 section.products {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey
 }
@@ -262,7 +261,7 @@ img.prod {
 
 
 section.location {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
