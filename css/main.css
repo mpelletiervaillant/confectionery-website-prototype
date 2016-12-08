@@ -83,7 +83,7 @@ ul.nav {
 nav li {
   display: inline-block;
   float: left;
-  width: 49.8%;
+  width: 49.5%;
   margin-top: 1px;
   margin-left: 1px;
   background-color: #01a2be;
@@ -345,19 +345,22 @@ section.reviews {
   width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
+  text-align: center;
 }
 
 ul.review-card {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
-  display: inline-block;
   }
 
-.review-card li {
+li.one {
   border: 1px solid grey;
   background-color: white;
   box-shadow: 2px 2px 5px grey;
+  margin: 1em;
+  max-width: 310px;
+  display: inline-block;
 }
 
 .joy {
@@ -370,7 +373,7 @@ ul.review-card {
 
 .one strong {
   color: black;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 5em;
   }
 
@@ -394,9 +397,6 @@ img.star {
   display: block;
 }
 
-.two strong {
-  font-size: 2.5rem;
-}
 
 footer {
   background-color: #f473b3;
@@ -509,11 +509,6 @@ footer small {
     text-align: center;
   }
 
-  ul.people {
-    text-align: center;
-  }
-
-
   li.card-one {
     max-width: 15em;
     display: inline-block;
@@ -526,47 +521,3 @@ footer small {
 }
 
 @media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-
-  nav li {
-    width: 16.5%;
-  }
-
-.location-fig figcaption {
-  display: inline-block;
-}
-  .location-fig {
-  display: inline-block;
-  }
-
-  .location img-fig {
-    display: inline-block;
-  }
-
-  img.img-store {
-    max-width: 45%;
-    display: inline-block;
-  }
-  .location-info p {
-    max-width: 45%;
-    display: inline-block;
-  }
-
-  .review-card li {
-    max-width: 25%;
-    margin: .25em;
-    float: left;
-  }
-
-  ul.review-card {
-    width: 100%;
-  }
-
-
-
-}
