@@ -567,7 +567,7 @@ footer small {
 
   .btm-nav li {
     width: 18%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -610,4 +610,8 @@ footer small {
     max-height: 700px;
     overflow: hidden;
   }
+  .btm-nav li {
+    width: 18%;
+    font-size: 2em;
   }
+}
