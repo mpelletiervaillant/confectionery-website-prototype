@@ -587,9 +587,7 @@ footer small {
 
   .banner-content {
     max-height: 270px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+
   }
 
   .banner-content h2 {
@@ -606,5 +604,10 @@ footer small {
 
   li.one {
     max-width: 320px;
+  }
+
+  img.img-flex {
+    max-height: 700px;
+    overflow: hidden;
   }
   }
