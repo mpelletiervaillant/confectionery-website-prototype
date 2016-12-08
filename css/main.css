@@ -103,7 +103,7 @@ nav li:hover {
   cursor: pointer;
 }
 
-.banner {
+.banner-body {
   background-color: white;
 }
 
@@ -113,7 +113,6 @@ nav li:hover {
   background-color: #f473b3;
   padding: 1em;
   cursor: pointer;
-
 }
 
 .banner-content:hover {
@@ -139,6 +138,49 @@ nav li:hover {
   text-decoration: none;
 }
 
+section.products {
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px grey
+}
+
+ul.prod-list {
+  list-style-type: none;
+  padding: 1em;
+  text-align: center;
+  background-color: white;
+}
+
+li.prod-btn {
+  display: inline-block;
+  position: relative;
+  width: 31%;
+}
+
+img.prod {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.btn-content h3 {
+  color: white;
+  font-size: 1.5em;
+  margin: auto;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+
+.prod-btn:hover {
+  opacity: 0.5;
+  transition: opacity .35s;
+}
+
 section.about {
   width: 95%;
   margin: 0 auto;
@@ -148,7 +190,6 @@ section.about {
 div.body-about {
   padding: 1em;
   margin: 1em;
-
   text-align: center;
   background-color: white;
 }
@@ -244,48 +285,7 @@ div.card-body {
   color: #f473b3;
 }
 
-section.products {
-  width: 95%;
-  margin: 0 auto;
-  box-shadow: 2px 2px 5px grey
-}
 
-ul.prod-list {
-  list-style-type: none;
-  padding: 1em;
-  text-align: center;
-  background-color: white;
-}
-
-li.prod-btn {
-  display: inline-block;
-  position: relative;
-  width: 31%;
-}
-
-img.prod {
-  width: 100%;
-  border-radius: 7px;
-}
-
-.btn-content h3 {
-  color: white;
-  font-size: 1.5em;
-  margin: 0;
-  display: inline-block;
-  width: 90%;
-  position: absolute;
-  bottom: .8em;
-  left: 50%;
-  transform: translateX(-50%);
-  text-shadow: 2px 2px 5px black;
-  text-align: center;
-}
-
-.prod-btn:hover {
-  opacity: 0.5;
-  transition: opacity .35s;
-}
 
 section.location {
   width: 95%;
@@ -299,7 +299,6 @@ div.location-text {
   padding: 2em;
   text-align: left;
   vertical-align: middle;
-
 }
 
 .location-info {
