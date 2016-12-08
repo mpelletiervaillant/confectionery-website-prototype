@@ -526,3 +526,11 @@ footer small {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  nav li {
+    width: 16.5%;
+  }
+
+  li.prod-btn {
+    width: 16%;
+  }
