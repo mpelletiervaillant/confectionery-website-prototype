@@ -330,6 +330,12 @@ section.location {
   transition: background-color .35s, color .35s;
 }
 
+section.reviews {
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px grey;
+}
+
 ul.review-card {
   list-style-type: none;
   padding: 0;
@@ -339,7 +345,6 @@ ul.review-card {
 
 .review-card li {
   border: 1px solid grey;
-  margin: .5em 2em;
   background-color: white;
   box-shadow: 2px 2px 5px grey;
 }
@@ -493,10 +498,19 @@ footer small {
     text-align: center;
   }
 
+  ul.people {
+    text-align: center;
+  }
+
+
   li.card-one {
     max-width: 15em;
     display: inline-block;
-    margin: 0;
+    margin: 1em;
+  }
+
+  li.prod-btn {
+    width: 15%;
   }
 }
 
@@ -506,22 +520,12 @@ footer small {
     width: 16.5%;
   }
 
-  ul.people {
-    text-align: center;
-  }
-
-  li.card-one {
-    max-width: 15em;
-    margin: 0;
-    display: inline-block;
-  }
-
 .location-fig figcaption {
   display: inline-block;
 }
-.location-fig {
+  .location-fig {
   display: inline-block;
-}
+  }
 
   .location img-fig {
     display: inline-block;
@@ -535,3 +539,18 @@ footer small {
     max-width: 45%;
     display: inline-block;
   }
+
+  .review-card li {
+    max-width: 27%;
+    margin: 1em;
+    float: left;
+  }
+
+  ul.review-card {
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+}
