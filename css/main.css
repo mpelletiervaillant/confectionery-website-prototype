@@ -506,7 +506,7 @@ footer small {
   li.card-one {
     max-width: 15em;
     display: inline-block;
-    margin: 1em;
+    margin: .5em;
   }
 
   li.prod-btn {
@@ -516,6 +516,10 @@ footer small {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
   nav li {
     width: 16.5%;
   }
@@ -541,14 +545,13 @@ footer small {
   }
 
   .review-card li {
-    max-width: 27%;
-    margin: 1em;
+    max-width: 25%;
+    margin: .25em;
     float: left;
   }
 
   ul.review-card {
     width: 100%;
-    text-align: center;
   }
 
 
