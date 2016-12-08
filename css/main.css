@@ -285,41 +285,43 @@ div.card-body {
   color: #f473b3;
 }
 
-
-
 section.location {
   width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
 
-div.location-text {
-  display: inline-block;
-  max-width: 25em;
-  padding: 2em;
-  text-align: left;
-  vertical-align: middle;
-}
-
 .location-info {
   padding: 1em;
   margin: 1em;
+    vertical-align: middle;
 }
 
 .location h2 {
   font-size: 2.5em;
   margin: 0;
+  padding: 0
 }
 
-.location p{
-    font-family: 'Playfair Display', serif;
-    color: #f473b3;
+div.location-text {
+  margin: 1em;
+  text-align: center;
 }
 
 .img-store {
   display: inline-block;
-  max-width: 25em;
   width: 100%;
+}
+
+.location-text p{
+    font-family: 'Playfair Display', serif;
+    color: #f473b3;
+    margin: 0;
+    width: 100%;
+}
+
+.btn-location {
+  margin: 1em;
 }
 
 .store h2 {
