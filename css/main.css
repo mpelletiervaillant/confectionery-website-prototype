@@ -294,7 +294,6 @@ section.location {
 .location-info {
   padding: 1em;
   margin: 1em;
-    vertical-align: middle;
 }
 
 .location h2 {
@@ -534,3 +533,25 @@ footer small {
   li.prod-btn {
     width: 16%;
   }
+
+  div.location-text {
+    margin: 1em;
+    text-align: left;
+
+  }
+
+  .img-store {
+    max-width: 47%;
+    vertical-align: middle;
+  }
+
+  .location-text p{
+      max-width: 47%;
+      margin: 1em;;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+      padding: .5em;
+    }
