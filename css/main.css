@@ -110,7 +110,7 @@ nav li:hover {
 .banner-content {
   text-align: left;
   width: 100%;
-  background-color: #f473b3;
+  background-color: rgba(244, 115, 179, 0.5);
   padding: 1em;
   cursor: pointer;
 }
@@ -344,13 +344,14 @@ section.reviews {
   width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
-  tex
+  padding: 1em;
 }
 
 ul.review-card {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -403,6 +404,7 @@ footer {
   text-align: center;
   display: block;
   padding: 1em;
+  margin-top: 1em;
 }
 
 ul.social-media {
@@ -442,7 +444,6 @@ ol.btm-nav {
   width: 16%;
   margin: 0.3em;
   display: inline
-
 }
 
 .btm-nav a {
@@ -516,7 +517,7 @@ footer small {
 
   .card-body p {
   text-align: left;
-
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -534,10 +535,18 @@ footer small {
     width: 16%;
   }
 
+  .btn-content h3 {
+    font-size: 2em;
+  }
+
+  li.card-one {
+    max-width: 30%;
+    max-height: 460px;
+  }
+
   div.location-text {
     margin: 1em;
     text-align: left;
-
   }
 
   .img-store {
@@ -555,3 +564,31 @@ footer small {
       border-bottom: 1px solid grey;
       padding: .5em;
     }
+
+  .btm-nav li {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .banner-content h2 {
+    font-size: 5em;
+  }
+
+  .banner-content p {
+    font-size: 1.5em;
+  }
+
+  .btn-content h3 {
+    font-size: 2.5em;
+  }
+
+  li.one {
+    max-width: 320px;
+  }
+  }
