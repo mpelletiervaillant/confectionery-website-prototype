@@ -567,6 +567,7 @@ footer small {
 
   .btm-nav li {
     width: 18%;
+    font-size: 2em;
   }
 }
 
@@ -574,6 +575,10 @@ footer small {
 
   html {
     font-size: 130%;
+  }
+
+  nav.li {
+    font-size: 1.5em;
   }
 
   .banner-content h2 {
@@ -588,7 +593,7 @@ footer small {
     font-size: 2.5em;
   }
 
-  li.one {
+  nav a {
     max-width: 320px;
   }
   }
