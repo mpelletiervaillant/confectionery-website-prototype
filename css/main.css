@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 'Amatica SC', sans-serif;
+  font: normal 100%/1.3 "Amatica SC", sans-serif;
 }
 
 *, *::before, *::after {
@@ -110,7 +110,7 @@ nav li:hover {
 .banner-content {
   text-align: left;
   width: 100%;
-  background-color: rgba(244, 115, 179, 0.5);
+  background-color: rgba(244, 115, 179, .5);
   padding: 1em;
   cursor: pointer;
 }
@@ -132,7 +132,7 @@ nav li:hover {
 
 .banner-content p {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: white;
   font-size: .8em;
   text-decoration: none;
@@ -141,7 +141,7 @@ nav li:hover {
 section.products {
   width: 95%;
   margin: 0 auto;
-  box-shadow: 2px 2px 5px grey
+  box-shadow: 2px 2px 5px grey;
 }
 
 ul.prod-list {
@@ -177,7 +177,7 @@ img.prod {
 }
 
 .prod-btn:hover {
-  opacity: 0.5;
+  opacity: .5;
   transition: opacity .35s;
 }
 
@@ -202,7 +202,7 @@ div.body-about {
 }
 
 .about p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: .9em;
   color: #f473b3;
   text-align: left;
@@ -266,13 +266,37 @@ div.card-body {
   padding-left: .7rem;
 }
 
+footer small {
+  color: white;
+}
+
 .card-body small {
   padding-left: .7rem;
   font-size: 1.4em;
 }
 
+.rev-head {
+  margin: 1em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.location-text p {
+  font-family: "Playfair Display", serif;
+  color: #f473b3;
+  margin: 0;
+  width: 100%;
+}
+
+.rev-body p {
+  color: black;
+  font-family: "Playfair Display", serif;
+  margin: 1em;
+  display: block;
+}
+
 .card-body p:first-child {
-  font-family: 'Amatica SC', sans-serif;
+  font-family: "Amatica SC", sans-serif;
   color: black;
   margin: 0;
 }
@@ -281,7 +305,7 @@ div.card-body {
   margin: 0;
   padding-left: 10px;
   padding-bottom: 1rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #f473b3;
 }
 
@@ -299,7 +323,7 @@ section.location {
 .location h2 {
   font-size: 2.5em;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 div.location-text {
@@ -310,13 +334,6 @@ div.location-text {
 .img-store {
   display: inline-block;
   width: 100%;
-}
-
-.location-text p{
-    font-family: 'Playfair Display', serif;
-    color: #f473b3;
-    margin: 0;
-    width: 100%;
 }
 
 .btn-location {
@@ -376,7 +393,7 @@ li.one {
   color: black;
   font-size: 2.5rem;
   margin-top: 5em;
-  }
+}
 
 img.star {
   float: left;
@@ -384,20 +401,6 @@ img.star {
   margin-bottom: 1em;
   display: block;
 }
-
-.rev-head {
-  margin: 1em;
-  margin-top: 2em;
-  margin-bottom: 3em;
-}
-
-.rev-body p {
-  color: black;
-  font-family: 'Playfair Display', serif;
-  margin: 1em;
-  display: block;
-}
-
 
 footer {
   background-color: #f473b3;
@@ -430,20 +433,23 @@ img.sm-icon:hover {
 }
 
 ol.btm-nav {
-  padding: 0;
   list-style-type: none;
-    padding: .2em;
-    text-align: center;
-    display: inline-block;
-    width: 95%;
-    margin: 0;
+  padding: .2em;
+  text-align: center;
+  display: inline-block;
+  width: 95%;
+  margin: 0;
 }
 
 .btm-nav li {
   float: left;
   width: 16%;
-  margin: 0.3em;
-  display: inline
+  margin: .3em;
+  display: inline;
+}
+
+.btm-nav li:hover {
+  background-color: white;
 }
 
 .btm-nav a {
@@ -455,14 +461,10 @@ ol.btm-nav {
   color: #ffe85a;
 }
 
-footer small {
-  color: white;
-}
-
 @media only screen and (min-width: 25em) {
 
   html {
-    size: 100%;
+    font-size: 100%;
     line-height: 1.3;
   }
 }
@@ -516,7 +518,7 @@ footer small {
   }
 
   .card-body p {
-  text-align: left;
+    text-align: left;
   }
 }
 
@@ -554,16 +556,16 @@ footer small {
     vertical-align: middle;
   }
 
-  .location-text p{
-      max-width: 47%;
-      margin: 1em;;
-      display: inline-block;
-      vertical-align: middle;
-      text-align: center;
-      border-top: 1px solid grey;
-      border-bottom: 1px solid grey;
-      padding: .5em;
-    }
+  .location-text p {
+    max-width: 47%;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: .5em;
+  }
 
   .btm-nav li {
     width: 18%;
@@ -610,6 +612,7 @@ footer small {
     max-height: 700px;
     overflow: hidden;
   }
+
   .btm-nav li {
     width: 18%;
     font-size: 2em;
