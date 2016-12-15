@@ -459,10 +459,6 @@ ol.btm-nav {
   display: inline;
 }
 
-.btm-nav li:hover {
-  background-color: white;
-}
-
 .btm-nav a {
   color: white;
   text-decoration: none;
