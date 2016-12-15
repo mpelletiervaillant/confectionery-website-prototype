@@ -83,9 +83,8 @@ ul.nav {
 nav li {
   display: inline-block;
   float: left;
-  width: 49.5%;
-  margin-top: 1px;
-  margin-left: 1px;
+  width: 50%;
+
   background-color: #01a2be;
   padding: .3em;
   text-align: center;
@@ -534,7 +533,7 @@ ol.btm-nav {
   }
 
   nav li {
-    width: 16.5%;
+    width: 16.666%;
   }
 
   li.prod-btn {
