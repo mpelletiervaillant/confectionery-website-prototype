@@ -84,10 +84,18 @@ nav li {
   display: inline-block;
   float: left;
   width: 50%;
-
   background-color: #01a2be;
   padding: .3em;
   text-align: center;
+  border-top: 1px solid white;
+}
+
+nav li:nth-child(odd) {
+  border-right: 1px solid white;
+}
+
+nav li:nth-child(even) {
+  border-right: 1px solid white;
 }
 
 nav a {
